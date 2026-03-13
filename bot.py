@@ -30,8 +30,7 @@ DEPORTES = {
     "Fútbol - Champions League": "soccer_uefa_champs_league",
     "Fútbol - Serie A":          "soccer_italy_serie_a",
     "Fútbol - Bundesliga":       "soccer_germany_bundesliga",
-    "Tenis - ATP":               "tennis_atp_french_open",
-    "Tenis - WTA":               "tennis_wta_french_open",
+    "Fútbol - Liga Argentina":   "soccer_argentina_primera_division",
 }
 
 BASE_URL = "https://api.the-odds-api.com/v4/sports"
