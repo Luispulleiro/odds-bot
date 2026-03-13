@@ -18,10 +18,10 @@ TWILIO_FROM      = os.environ.get("TWILIO_FROM", "whatsapp:+14155238886")  # Nú
 TU_WHATSAPP      = os.environ.get("TU_WHATSAPP", "whatsapp:+54911XXXXXXXX")  # Tu número con código de país
 
 # Umbral: si la cuota de bet365 supera X% a la de Pinnacle → alerta
-UMBRAL_PORCENTAJE = float(os.environ.get("UMBRAL_PCT", "5.0"))
+UMBRAL_PORCENTAJE = 5.0
 
 # Intervalo de consulta en segundos (por defecto: cada 5 minutos)
-INTERVALO_SEGUNDOS = int(os.environ.get("INTERVALO_SEG", "300"))
+INTERVALO_SEGUNDOS = 300
 
 # Deportes habilitados (IDs de The Odds API)
 DEPORTES = {
